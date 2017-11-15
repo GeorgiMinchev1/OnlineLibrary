@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Online Library</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="AddScript.js"></script>
+	<script src="AccountScript.js"></script>
+</head>
+<body>
+	<header>
+	<div>
+		<img class="head" src="Books.jpg">
+	</div>
+	</header>
+	<nav>
+		<div class="container">
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="AddBook.html" >Add new book</a></li>
+			<li><a href="ShowBooks.html" >Read book</a></li>
+			<li class="Acc"><a id="regLink" href="RegForm.html">Sign in</a></li>
+			<li class="Acc"><a id="logLink" href="LogIn.html">Log in</a></li>
+		</ul>
+		</div>
+	</nav>
+	<content>
+		<div class = "container">
+			<form>
+				<label>Title</label><input type="text" placeholder="Book's Title" id="title" required><br/>
+				<label>Author</label><input type="text" placeholder="Book's Author" id="author" required><br/>
+				<label>Genre</label><input type="text" placeholder="Book's Gendre" id="gendre" required><br/>
+				<label>ISBN</label><input type="text" placeholder="Book's ISBN" id="ISBN" required><br/>
+				<label>Date</label><input type="date" placeholder="Book's Release Date" id="date" required><br/><br/>
+				<!--<label>Cover</label><input type="file" id="cover"/><br/>-->
+				<label>Description</label><br/><textarea placeholder="Write a description for that book." rows="3" cols="120" id="description"></textarea><br/>
+				<input type="button" id="addButton" value="Add">
+			</form>
+			<div id="Trial"></div>
+		</div>
+	</content>
+	
+	<footer>
+		<div>
+			<p></p>
+		</div>
+	</footer>
+</body>
+</html>

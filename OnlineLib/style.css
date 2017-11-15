@@ -1,0 +1,174 @@
+*{
+	font-family: Verdana,sans-serif;
+	font-size:100%;
+}
+
+
+a:hover{
+	text-decoration:none;
+	background-color:#00A298;
+}
+
+body{
+	background-color:#e9fffd;/*rgb(43,100,34);*/
+	z-index:-2;
+}
+li a{
+	display:inline-block;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	padding:14px 28px;
+	font-size:1.25em;
+	margin:0px;
+}
+
+
+nav{
+	background-color:#004a43;
+	width:90%;
+	margin-left:5%;
+	font-style:"sans-serif";
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+nav div.container{
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+content{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+content div.container{
+	background-color:#b7fff8;/*#d0b8b0;*//*#00dcc6;*/
+	width:90%;
+	padding:14px 34px;
+	margin:12px 16px;
+	margin-left:5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+input.AccIn{
+	width:90%;
+}
+
+div#Registration , div#Logging{
+	width:40%;
+}
+form{
+	margin:20px;
+}
+
+label{
+	width:75px;
+	text-align:center;
+	display:inline-block;
+}
+
+input[type="file"]{
+	width:95px;
+	display:inline-block;
+}
+
+input{
+	margin:6px 12px;
+}
+
+div.container ul{
+	list-style-type:none;
+	display:block;
+	padding:0;
+}
+
+header div{
+	width:90%;
+	margin:8px 14px;
+	margin-left:5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+	z-index:0;
+}
+
+img.head{
+	width:100%;
+}
+
+li{
+	display:inline;
+	float:left;
+}
+
+li.Acc{
+	float:right;
+}
+
+li.Acc a{
+	padding:14px 22px;
+}
+
+
+
+.bookBox{
+	/*background-color:#f3f3f3;*/
+	border:solid thin lightgrey;
+	border-radius:3px;
+	text-align:center;
+	/*margin: 0.5% 0.5%;*/
+	width:23%;
+	margin:1%;
+	display:inline-block;
+	padding: 3px;
+	transition: width 0.3s ease-in;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bookBox {
+        width:31%;
+    }
+	
+	li a{
+		padding:12px 18px;
+	}
+	
+}
+
+@media only screen and (max-width: 800px) {
+    .bookBox {
+        width:48%;
+    }
+	
+	li a{
+		padding:9px 14px;
+	}
+	
+	content div.container{
+		padding:7px 16px;
+	}
+	
+}
+
+@media only screen and (max-width: 400px) {
+    .bookBox {
+        width:98%;
+    }
+	
+	li{
+		display:block;
+		width:100%;
+	}
+	
+	li a{
+		width:100%;
+	}
+	
+	content div.container{
+		padding:0px 0px;
+	}
+	
+}
+
+.imgOfBook{
+	width:70%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Online Library</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="ShowScript.js"></script>
+	<script src="AccountScript.js"></script>
+</head>
+<body>
+	<header>
+	<div>
+		<img class="head" src="Books.jpg">
+	</div>
+	</header>
+	<nav>
+		<div class="container">
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="AddBook.html" >Add new book</a></li>
+			<li><a  href="ShowBooks.html" >Read book</a></li>
+			<li class="Acc"><a id="regLink" href="RegForm.html">Sign in</a></li>
+			<li class="Acc"><a id="logLink" href="LogIn.html">Log in</a></li>
+		</ul>
+		</div>
+	</nav>
+	<content>
+	<div class="container">
+		<div style="display:block;font-size:2em;margin:30px 10px;"><input id="searchBox" type="text"/ style="width:60%;" placeholder="search">
+				<select id="searchBy" style="display:inline">
+					<option selected="selected" value="Title">Title</option>
+					<option value="Author">Author</option>
+					<option value="ISBN">ISBN</option>
+				</select>
+				<button id="searchBut">Search</button>
+		</div><br/>
+		<div id="resultBox"></div>
+	</div>
+	
+	
+		
+	</content>
+	<footer>
+		<div>
+			<p></p>
+		</div>
+	</footer>
+</body>
+</html>
